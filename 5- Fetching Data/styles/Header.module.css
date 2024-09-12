@@ -1,0 +1,27 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #0070f3;
+    font-weight: 600;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .link:hover {
+    color: #0056b3;
+  }
+  
+  .linkActive {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 2px;
+  }
+  
